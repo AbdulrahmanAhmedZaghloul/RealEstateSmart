@@ -1,5 +1,5 @@
 import { AppShell, Burger, useMantineColorScheme } from "@mantine/core";
-import Sidebar from "../../components/company/sidebar";
+import Sidebar from "../../components/company/Sidebar";
 import { Outlet } from "react-router-dom";
 import classes from "../../styles/dashboardLayout.module.css";
 import { useSidebar } from "../../context/sidebarContext";

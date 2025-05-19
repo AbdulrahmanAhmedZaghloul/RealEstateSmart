@@ -1,7 +1,7 @@
 import { AppShell, useMantineColorScheme } from "@mantine/core";
 import { Outlet, useLocation } from "react-router-dom";
 import classes from "../../styles/dashboardLayout.module.css";
-import SidebarEmployee from "../../components/employee/sidebar_Employee";
+import SidebarEmployee from "../../components/employee/SidebarEmployee";
 import { useSidebar } from "../../context/sidebarContext";
 import { useTranslation } from "../../context/LanguageContext";
 
