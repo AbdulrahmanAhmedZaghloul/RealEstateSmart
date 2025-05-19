@@ -4,7 +4,7 @@ import { MantineProvider } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
 import "@mantine/notifications/styles.css";
 import "./styles/variables.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter  } from "react-router-dom";
 import App from "./App.jsx";
 import { LanguageProvider } from "./context/LanguageContext.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -40,9 +40,9 @@ function Main() {
       <QueryClientProvider client={queryClient}>
         <LanguageProvider>
           <Notifications />
-          <BrowserRouter>
+          <HashRouter >
             <App />
-          </BrowserRouter>
+          </HashRouter>
         </LanguageProvider>
       </QueryClientProvider>
     </MantineProvider>

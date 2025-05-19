@@ -101,7 +101,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            <Route path="*" element={<h1>404111</h1>} />
+            {/* <Route path="*" element={<h1>404111</h1>} /> */}
             <Route path="/subscription-plans" element={<SubscriptionPlans />} />
 
             {/* Company Manager Routes */}
